@@ -1,0 +1,132 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+#sss {
+    display: block;
+    background: rgb(188, 214, 243);
+    /*定位解决页面跳动问题*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#actions {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+}
+
+#actions svg {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 8px 0 0;
+    color: rgb(58, 53, 53);
+}
+
+#actions svg.actva {
+    color: red;
+    transform: scale(1.2);
+    /*自身的1.2倍*/
+    transition: all 0.3s;
+}
+
+li {
+    list-style: none;
+}
+
+.clolrs {
+    position: fixed;
+    top: 40px;
+    left: 20px;
+}
+
+.clolrs>li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(230, 223, 223);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.clolrs .red {
+    background: red;
+}
+
+.clolrs .green {
+    background: green;
+}
+
+.clolrs .blue {
+    background: blue;
+}
+
+.clolrs .black {
+    background: black;
+}
+
+.clolrs .actvas {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.95);
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.sizes {
+    position: absolute;
+    top: 170px;
+    display: block;
+    left: 5px;
+}
+
+.sizes li {
+    margin: 20px 0;
+    position: relative;
+}
+
+.sizes .thin {
+    height: 6;
+    width: 30px;
+    border-top: 2px solid black;
+    left: 22px;
+}
+
+.sizes .thintow {
+    height: 6;
+    width: 35px;
+    border-top: 4px solid black;
+    left: 20px;
+}
+
+.sizes .thinthree {
+    height: 6;
+    width: 35px;
+    border: 6px solid black;
+    left: 15px;
+}
+
+.sizes .thick {
+    height: 6;
+    width: 40px;
+    border: 10px solid black;
+    left: 10px;
+}
+
+.sizes .actvass {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.95);
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
